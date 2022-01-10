@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/background3.jpg");
+    background-size: cover;
+    height:auto;
+}
+
+.row{
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+    
+}
+.datetime {
+    background-position: relative;
+    text-align: center;
+    padding: 5rem;
+}
+
+.datetime h1 {
+    font-weight: 500;
+    font-size: 34px;
+    font-family: 'Indie Flower', cursive;
+    color: #e4eff7;
+}
+.datetime p {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5 rem;
+    color: #e4eff7;
+}
+
+.main {
+
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.514);
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid aquamarine;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.411),rgba(255, 192, 203, 0.432),rgba(255, 255, 0, 0.445),rgba(15, 206, 206, 0.466));
+    
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    z-index: 1;
+    padding: 20px;
+}
+
+/* ----input section */
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #16a864;
+    color: #3b0edf;
+    margin-right:4px ;
+    
+}
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: #16a864;
+    font-weight: bold;
+    color: ghostwhite;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.display {
+    text-align: center;
+    color: #1816a8;
+}
+.wrapper {
+    margin: 0 ;
+    width: 50%;
+    background-color:rgba(255, 255, 255, 0.356);
+    height: 30vh;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+    margin:10px 0;
+    font-size:20px;
+  }
+/* 
+  date and time */
+
+
+
+
+  html,body{
+    display: grid;
+    place-items: center;
+
+  }
+  #dayIntro
+{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 100px;
+    margin-right: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    background: linear-gradient(180deg, #2527c0,rgb(201, 19, 89));
+}
+  .dispClock,
+  .container {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .container .dispClock{
+    top: 50%;
+    height: 85px;
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .dispClock #time{
+    line-height: 85px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+    background: linear-gradient(105deg, #5421e0, #cc0791);
+  }
